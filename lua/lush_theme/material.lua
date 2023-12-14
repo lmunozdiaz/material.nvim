@@ -67,6 +67,9 @@ local theme = lush(function(injected_functions)
 
     sym("@lsp.typemod.property") { fg = colors.red },
     sym("@lsp.type.class") { fg = colors.yellow },
+    sym("@tag") { fg = colors.red },
+    sym("@tag.attribute") { fg = colors.magenta },
+    sym("@tag.delimiter") { fg = colors.cyan },
   }
 end)
 
